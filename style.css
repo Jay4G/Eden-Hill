@@ -1,34 +1,34 @@
-
-/* Navbar floats cleanly over hero */
-/* .hero-navbar {
+/* 
+/* Navbar floats cleanly over hero *
+.hero-navbar {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 999;
-} */
+}
 
-/* Fully transparent initial state */
+/* Fully transparent initial state *
 .uk-navbar-container {
     background: transparent !important;
     box-shadow: none !important;
 }
 
-/* Center logo correction */
+/* Center logo correction *
 .uk-navbar-center {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
 
-/* Sticky state (after scroll) */
+/* Sticky state (after scroll) *
 .uk-sticky-fixed {
     background: rgba(255,255,255,0.95) !important;
     backdrop-filter: blur(12px);
     box-shadow: 0 2px 18px rgba(0,0,0,0.08);
 }
 
-/* Ensure hero sits nicely under navbar */
+/* Ensure hero sits nicely under navbar *
 .hero-section {
     min-height: 100vh;
-}
+} */
