@@ -18,71 +18,78 @@
 
 
 <!-------------------.section ---------------------------------->
-<header class="site-header">
-    <nav class="uk-navbar-container uk-navbar-transparent"
+<div id="pagehero" class="hero-section uk-section uk-background-cover uk-background-top-center uk-position-relative uk-flex uk-flex-middle" 
+    data-src="camera-man-villa-balbiano-6154200.jpg"
+    data-srcset="
+        camera-man-villa-balbiano-6154200.jpg,
+        camera-man-villa-balbiano-6154200.jpg 2x" 
+    sizes="100vw" 
+    uk-img="loading: eager">
+
+    <!-- NAVBAR -->
+    <nav class="uk-navbar-container uk-navbar-transparent hero-navbar"
          uk-navbar
          uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container">
 
         <div class="uk-container uk-container-expand">
 
-            <!-- Left spacer -->
             <div class="uk-navbar-left"></div>
 
-            <!-- Center Logo -->
             <div class="uk-navbar-center">
                 <a class="uk-navbar-item uk-logo" href="#">
-                    <img src="favicon.svg" alt="Logo">
+                    <img src="favicon.svg" alt="Eden Hills Dubai Logo">
                 </a>
             </div>
 
-            <!-- Right Button -->
             <div class="uk-navbar-right">
-                <a href="#enquiry" class="uk-button uk-button-primary">
-                    Enquiry
+                <a class="uk-button uk-button-secondary" href="#enquiry">
+                    Make enquiry
                 </a>
             </div>
 
         </div>
     </nav>
-</header>
 
-<!-- HERO -->
-<section class="hero">
-    <img src="camera-man-villa-balbiano-6154200.jpg" alt="Hero" class="hero-img">
-</section>
+    <!-- TOP OVERLAY -->
+    <div class="uk-position-top top-overlay"></div>
 
+    <!-- HERO CONTENT -->
+    <div class="uk-width-1-1 uk-position-relative">
+        <div class="uk-container">
 
-<!-------------------.section ---------------------------------->
-    <div id="pagehero" class="hero-section uk-section uk-background-cover uk-background-top-center uk-position-relative uk-flex uk-flex-middle" 
-			  data-src="img/herobg-LG.jpg"
-			  data-srcset="
-				img/herobg-XL.jpg 1920w,
-				img/herobg-LG.jpg 1300w" 
-			  sizes="100vw" 
-			  uk-img="loading: eager">
-			  
-			  <div class="uk-position-top top-overlay"></div>
-	
-			<div class="uk-width-1-1 uk-position-relative">
-				<div class="uk-container">
-					<div class="main-caption uk-text-center uk-flex uk-flex-center">
-						<div class="content banner-caption">
-							<div class="uk-light" uk-scrollspy="cls: uk-animation-slide-bottom-small; target: .animateInitState; delay: 200; repeat: true" uk-margin="margin: uk-margin-top">
-							
-								<h1 class="main-title animateInitState uk-margin-remove">Exceptional Private Estate Living, <br class="uk-visible@l">90 minutes from Paris</h1>
-								<div class="subheading animateInitState uk-width-4-5@m uk-margin-auto">
-									<p>52 three- to seven-bedroom residences within the 1,400 acre Les Bordes Estate, featuring championship golf, Olympic equestrian facilities, and <br class="uk-visible@l">world-class Six Senses wellness amenities.</p>
-									<p>Residences from €2,990,000</p>
-								</div>
-								<div class="hero-cta uk-width-1-1 animateInitState">
-									<div><a class="uk-button uk-button-secondary" href="#enquiry" uk-scroll>Make an enquiry</a></div>
-								</div>							
-							</div>
-						</div>	
-					</div>					
-				</div>
-			</div>							
-		</div>
+            <div class="main-caption uk-text-center uk-flex uk-flex-center">
+                <div class="content banner-caption">
+
+                    <div class="uk-light"
+                         uk-scrollspy="cls: uk-animation-slide-bottom-small; target: .animateInitState; delay: 200; repeat: true"
+                         uk-margin="margin: uk-margin-top">
+
+                        <h1 class="main-title animateInitState uk-margin-remove">
+                            Exceptional Private Estate Living, <br class="uk-visible@l">90 minutes from Paris
+                        </h1>
+
+                        <div class="subheading animateInitState uk-width-4-5@m uk-margin-auto">
+                            <p>52 three- to seven-bedroom residences within the 1,400 acre Les Bordes Estate...</p>
+                            <p>Residences from €2,990,000</p>
+                        </div>
+
+                        <div class="hero-cta uk-width-1-1 animateInitState">
+                            <div>
+                                <a class="uk-button uk-button-secondary" href="#enquiry" uk-scroll>
+                                    Make an enquiry
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
 		<!-------------------.section ---------------------------------->
 
 
