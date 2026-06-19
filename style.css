@@ -1,0 +1,33 @@
+/* Transparent navbar over hero */
+.site-header {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+.uk-navbar-container {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+/* Center alignment correction */
+.uk-navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Sticky state (after scroll) */
+.uk-sticky-fixed {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+}
+
+/* Hero image full width */
+.hero-img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+}
