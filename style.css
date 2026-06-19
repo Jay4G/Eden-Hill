@@ -1,12 +1,12 @@
 
 /* Navbar floats cleanly over hero */
-.hero-navbar {
+/* .hero-navbar {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 999;
-}
+} */
 
 /* Fully transparent initial state */
 .uk-navbar-container {
