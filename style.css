@@ -7,9 +7,9 @@
 .hero-overlay{
     background: linear-gradient(
         to bottom,
-        rgba(170, 120, 255, 0.35),
-        rgba(120, 80, 220, 0.18),
-        rgba(40, 20, 90, 0.35)
+        rgba(40, 20, 90, 0.55),
+        rgba(120, 80, 220, 0.25),
+        rgba(170, 120, 255, 0.15)
     );
 }
 
