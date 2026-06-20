@@ -17,67 +17,80 @@
 
 
 <!-------------------.section ---------------------------------->
-<div id="pagehero" class="uk-position-relative uk-light">
+<!-- HERO SECTION -->
+<div id="pagehero"
+     class="hero-section uk-background-cover uk-background-center-center uk-position-relative uk-flex uk-flex-middle"
+     data-src="camera-man-villa-balbiano-6154200.jpg"
+     sizes="100vw"
+     uk-img="loading: eager">
 
-    <!-- Hero Image -->
-    <img
-        src="camera-man-villa-balbiano-6154200.jpg"
-        alt=""
-        sizes="100vw"
-        uk-img="loading: eager"
-    >
+    <!-- NAVBAR -->
+    <div class="uk-position-top uk-position-z-index">
+        <nav class="uk-navbar-container uk-navbar-transparent">
+            <div class="uk-container">
 
-    <!-- Navbar -->
-    <div class="uk-position-top">
-        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-            <div class="uk-container uk-container-expand">
+                <div uk-navbar>
 
-                <div class="uk-navbar-left"></div>
+                    <!-- LEFT (empty for balance) -->
+                    <div class="uk-navbar-left"></div>
 
-                <div class="uk-navbar-center">
-                    <a class="uk-navbar-item uk-logo" href="#">
-                        <img src="favicon.svg" alt="Eden Hills Dubai Logo">
-                    </a>
-                </div>
+                    <!-- CENTER LOGO -->
+                    <div class="uk-navbar-center">
+                        <a href="#">
+                            <img src="favicon.svg" alt="Logo" class="navbar-logo">
+                        </a>
+                    </div>
 
-                <div class="uk-navbar-right">
-                    <a class="uk-button uk-button-secondary" href="#enquiry">
-                        Make enquiry
-                    </a>
+                    <!-- RIGHT CTA -->
+                    <div class="uk-navbar-right">
+                        <a class="uk-button uk-button-secondary uk-border-pill"
+                           href="#enquiry"
+                           uk-scroll>
+                            Make an enquiry
+                        </a>
+                    </div>
+
                 </div>
 
             </div>
         </nav>
     </div>
 
-    <!-- Hero Content -->
-    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-text-center">
+    <!-- DARK OVERLAY -->
+    <div class="uk-position-cover hero-overlay"></div>
 
+    <!-- HERO CONTENT -->
+    <div class="uk-width-1-1 uk-position-relative">
         <div class="uk-container">
 
-            <h1 class="uk-heading-medium">
-                Exceptional Private Estate Living,<br class="uk-visible@l">
-                90 minutes from Paris
-            </h1>
+            <div class="main-caption uk-text-center uk-flex uk-flex-center">
 
-            <div class="uk-width-3-5@m uk-margin-auto">
-                <p>
-                    52 three- to seven-bedroom residences within the 1,400 acre Les Bordes Estate...
-                </p>
+                <div class="content banner-caption uk-light"
+                     uk-scrollspy="cls: uk-animation-slide-bottom-small; target: .animateInitState; delay: 200; repeat: true"
+                     uk-margin>
 
-                <p>
-                    Residences from €2,990,000
-                </p>
-            </div>
+                    <h1 class="main-title animateInitState uk-margin-remove">
+                        Exceptional Private Estate Living,
+                        <br class="uk-visible@l">
+                        90 minutes from Paris
+                    </h1>
 
-            <div class="uk-margin-large-top">
-                <a class="uk-button uk-button-secondary" href="#enquiry" uk-scroll>
-                    Make an enquiry
-                </a>
+                    <div class="subheading animateInitState uk-width-4-5@m uk-margin-auto">
+                        <p>
+                            52 three- to seven-bedroom residences within the 1,400 acre Les Bordes Estate,
+                            featuring championship golf, Olympic equestrian facilities, and
+                            <br class="uk-visible@l">
+                            world-class Six Senses wellness amenities.
+                        </p>
+
+                        <p>Residences from €2,990,000</p>
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
-
     </div>
 
 </div>

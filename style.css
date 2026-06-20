@@ -1,34 +1,40 @@
-/* 
-/* Navbar floats cleanly over hero *
-.hero-navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 999;
-}
-
-/* Fully transparent initial state *
-.uk-navbar-container {
-    background: transparent !important;
-    box-shadow: none !important;
-}
-
-/* Center logo correction *
-.uk-navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-/* Sticky state (after scroll) *
-.uk-sticky-fixed {
-    background: rgba(255,255,255,0.95) !important;
-    backdrop-filter: blur(12px);
-    box-shadow: 0 2px 18px rgba(0,0,0,0.08);
-}
-
-/* Ensure hero sits nicely under navbar *
-.hero-section {
+/* HERO FULL SCREEN */
+.hero-section{
     min-height: 100vh;
-} */
+}
+
+/* DARK OVERLAY FOR READABILITY */
+.hero-overlay{
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.55),
+        rgba(0,0,0,0.25),
+        rgba(0,0,0,0.65)
+    );
+}
+
+/* TRANSPARENT NAVBAR FIX */
+.uk-navbar-container.uk-navbar-transparent{
+    background: transparent !important;
+}
+
+/* NAVBAR HEIGHT CONTROL */
+.uk-navbar{
+    min-height: 90px;
+}
+
+/* CENTER LOGO SIZE */
+.navbar-logo{
+    height: 42px;
+    width: auto;
+}
+
+/* KEEP CTA CLEAN ON DARK BACKGROUND */
+.uk-navbar-right .uk-button{
+    font-weight: 500;
+}
+
+/* OPTIONAL: spacing tweak for hero text */
+.banner-caption{
+    margin-top: 30px;
+}
