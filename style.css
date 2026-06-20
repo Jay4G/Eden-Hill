@@ -60,3 +60,31 @@
     color: #ffffff !important;
     transform: scale(1.06);
 }
+
+/* Primary green button */
+.btn-primary {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #28b765;
+    color: white;
+    transition: all 0.25s ease;
+    transform: scale(1);
+}
+
+/* Outline button */
+.btn-outline {
+    background: white;
+    color: #2ecc71;
+    border: 1px solid #2ecc71;
+}
+
+.btn-outline:hover {
+    background: #2ecc71;
+    color: white;
+    transition: all 0.25s ease;
+    transform: scale(1);
+}
