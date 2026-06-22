@@ -132,82 +132,85 @@
             <h2 class="location-subtitle">Perfectly Placed for Tranquillity and Connection</h2>
         </div>
 
-        <div class="uk-grid uk-grid-large uk-flex uk-flex-middle" uk-grid>
+        <div class="location-grid uk-grid uk-grid-large uk-flex uk-flex-middle"
+             uk-grid
+             uk-height-match="target: .match-height">
 
-            <!-- IMAGES -->
-            <div class="uk-child-width-expand@l">
+            <!-- Desktop Large Image -->
+            <div class="location-image-large uk-width-3-5@l uk-visible@l">
+                <div class="location-animate" uk-scrollspy="cls: uk-animation-fade; repeat: true;">
 
-                <!-- DESKTOP GRID (2 images side by side) -->
-                <div class="uk-grid uk-grid-small uk-visible@l" uk-grid>
-
-                    <div class="uk-width-1-2">
-                        <div class="uk-cover-container location-cover">
-                            <canvas width="800" height="700"></canvas>
-                            <img src="dimitrisvetsikas1969-residence-2219972_1920.jpg" alt="" uk-cover>
-                        </div>
-                    </div>
-
-                    <div class="uk-width-1-2">
-                        <div class="uk-cover-container location-cover">
-                            <canvas width="800" height="700"></canvas>
-                            <img src="dimitrisvetsikas1969-residence-2219972_1920.jpg" alt="" uk-cover>
-                        </div>
+                    <div class="uk-cover-container location-cover">
+                        <canvas width="820" height="760"></canvas>
+                        <img src="dimitrisvetsikas1969-residence-2219972_1920.jpg" alt="" uk-cover>
                     </div>
 
                 </div>
-
-                <!-- MOBILE SLIDESHOW -->
-                <div class="uk-hidden@l uk-position-relative location-mobile"
-                     tabindex="-1"
-                     uk-slideshow="animation: fade; autoplay: false;">
-
-                    <ul class="uk-slideshow-items location-slides">
-
-                        <li>
-                            <div class="uk-cover-container location-cover">
-                                <canvas width="800" height="700"></canvas>
-                                <img src="dimitrisvetsikas1969-residence-2219972_1920.jpg" uk-cover>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="uk-cover-container location-cover">
-                                <canvas width="800" height="700"></canvas>
-                                <img src="dimitrisvetsikas1969-residence-2219972_1920.jpg" uk-cover>
-                            </div>
-                        </li>
-
-                    </ul>
-
-                    <!-- UIkit DOTS (NO JS NEEDED) -->
-                    <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
-
-                </div>
-
             </div>
 
-            <!-- CONTENT -->
-            <div class="uk-width-2-5@l location-content">
+            <!-- Content -->
+            <div class="match-height location-content">
 
-                <p class="location-text">
-                    Nestled close to Dubai Hills, residents are just minutes from world-class golf,
-                    shopping, parks, and the vibrant heart of the city.
-                </p>
+                <div class="location-inner uk-text-center uk-text-left@l">
 
-                <ul class="location-list">
-                    <li>5 minutes to Dubai Hills Golf Club</li>
-                    <li>6 minutes to Dubai Hills Mall</li>
-                    <li>6 minutes to Dubai Hills Park</li>
-                    <li>15 minutes to Jumeirah Beach</li>
-                    <li>15 minutes to Downtown Dubai</li>
-                    <li>15 minutes to Dubai Marina</li>
-                    <li>20 minutes to Dubai International Airport</li>
-                </ul>
+                    <!-- Mobile Slideshow -->
+                    <div class="uk-hidden@l uk-position-relative location-mobile-slider"
+                         tabindex="-1"
+                         uk-slideshow>
 
-                <a class="uk-button uk-button-default location-btn" href="#contact" uk-scroll>
-                    Make an Enquiry
-                </a>
+                        <div class="uk-slideshow-items">
 
+                            <div>
+                                <div class="uk-cover-container location-cover">
+                                    <canvas width="820" height="760"></canvas>
+                                    <img src="dimitrisvetsikas1969-residence-2219972_1920.jpg" alt="" uk-cover>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="uk-cover-container location-cover">
+                                    <canvas width="820" height="760"></canvas>
+                                    <img src="dimitrisvetsikas1969-residence-2219972_1920.jpg" alt="" uk-cover>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                    </div>
+
+                    <!-- Desktop Secondary Image -->
+                    <div class="uk-cover-container uk-visible@l location-secondary-image">
+                        <canvas width="531" height="373"></canvas>
+                        <img src="dimitrisvetsikas1969-residence-2219972_1920.jpg" alt="" uk-cover>
+                    </div>
+
+                    <!-- Paragraph -->
+                    <p class="location-text"
+                       uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true; delay: 300">
+                        Nestled close to Dubai Hills, residents are just minutes from world-class golf,
+                        shopping, parks, and the vibrant heart of the city. Downtown Dubai, Jumeirah Beach,
+                        and Dubai International Airport are all within a short drive, ensuring every journey
+                        is convenient and every return home is a welcome escape.
+                    </p>
+
+                    <!-- List -->
+                    <ul class="location-list">
+                        <li>5 minutes to Dubai Hills Golf Club</li>
+                        <li>6 minutes to Dubai Hills Mall</li>
+                        <li>6 minutes to Dubai Hills Park</li>
+                        <li>15 minutes to Jumeirah Beach</li>
+                        <li>15 minutes to Downtown Dubai</li>
+                        <li>15 minutes to Dubai Marina</li>
+                        <li>20 minutes to Dubai International Airport</li>
+                    </ul>
+
+                    <!-- Button -->
+                    <a class="uk-button uk-button-default location-btn" href="#contact" uk-scroll>
+                        Make an Enquiry
+                    </a>
+
+                </div>
             </div>
 
         </div>
