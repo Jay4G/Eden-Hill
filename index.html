@@ -131,42 +131,24 @@
             <h2>Perfectly Placed for Tranquillity and Connection</h2>
         </div>
 
-        <div class="sec-grid uk-grid uk-grid-large uk-flex uk-flex-middle"
-             uk-grid
-             uk-height-match="target: .match">
+        <div class="uk-grid uk-grid-large uk-flex uk-flex-middle" uk-grid uk-height-match="target: .match">
 
-            <!-- LEFT IMAGE (DESKTOP ONLY) -->
-            <div class="uk-width-3-5@l uk-visible@l">
-                <div class="uk-cover-container" style="height: 100%;">
-                    <canvas width="900" height="800"></canvas>
-                    <img src="dimitrisvetsikas1969-residence-2219972_1920.jpg" alt="" uk-cover>
-                </div>
-            </div>
+            <!-- IMAGE SLIDESHOW (works for ALL devices) -->
+            <div class="uk-width-3-5@l">
 
-            <!-- RIGHT CONTENT (DESKTOP + MOBILE TEXT FLOW) -->
-            <div class="col uk-width-2-5@l location-content">
-
-                <!-- DESKTOP SECOND IMAGE -->
-                <div class="uk-visible@l uk-cover-container uk-margin-small-bottom">
-                    <canvas width="531" height="373"></canvas>
-                    <img src="dimitrisvetsikas1969-residence-2238987_1920.jpg" alt="" uk-cover>
-                </div>
-
-                <!-- MOBILE SLIDESHOW -->
-                <div class="uk-hidden@l uk-position-relative uk-margin-small-bottom"
-                     uk-slideshow="animation: fade">
+                <div uk-slideshow="animation: fade">
 
                     <ul class="uk-slideshow-items">
 
                         <li>
-                            <div class="uk-cover-container">
+                            <div class="uk-cover-container" style="height: 100%;">
                                 <canvas width="900" height="800"></canvas>
                                 <img src="dimitrisvetsikas1969-residence-2219972_1920.jpg" uk-cover>
                             </div>
                         </li>
 
                         <li>
-                            <div class="uk-cover-container">
+                            <div class="uk-cover-container" style="height: 100%;">
                                 <canvas width="900" height="800"></canvas>
                                 <img src="dimitrisvetsikas1969-residence-2238987_1920.jpg" uk-cover>
                             </div>
@@ -176,10 +158,14 @@
 
                     <!-- DOTS -->
                     <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin-small-top"></ul>
-                </div>
 
-                <!-- TEXT (UNIFIED FOR ALL DEVICES) -->
-                <p class="animateInitState fs16 ls16 semibold"
+                </div>
+            </div>
+
+            <!-- TEXT CONTENT -->
+            <div class="uk-width-2-5@l location-content">
+
+                <p class="fs16 ls16 semibold"
                    uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true; delay: 300">
                     Nestled close to Dubai Hills, residents are just minutes from world-class golf,
                     shopping, parks, and the vibrant heart of the city. Downtown Dubai, Jumeirah Beach,
@@ -196,13 +182,13 @@
                     <li>20 minutes to Dubai International Airport</li>
                 </ul>
 
-                <a class=" uk-visible@l uk-button uk-button-default uk-margin-top" href="#contact" uk-scroll>
+                <a class="uk-button uk-button-default uk-margin-top" href="#contact" uk-scroll>
                     Make an Enquiry
                 </a>
 
             </div>
-        </div>
 
+        </div>
     </div>
 </div>
 
