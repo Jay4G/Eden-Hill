@@ -91,70 +91,36 @@
 
 
 /* SECTION WRAPPER */
-.location-section {
-    background: #fff;
-}
-
-/* HEADER */
-.location-title {
-    margin-bottom: 5px;
-    font-weight: 500;
-}
-
-.location-subtitle {
-    font-weight: 400;
-    opacity: 0.85;
-}
-
-/* GRID */
-.location-grid {
-    align-items: center;
-}
-
-/* IMAGE BLOCKS */
 .location-cover {
     border-radius: 10px;
     overflow: hidden;
 }
 
-.location-secondary-image {
-    margin-top: 20px;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-/* CONTENT */
-.location-content {
-    display: flex;
-    align-items: stretch;
-}
-
-.location-inner {
-    width: 100%;
-}
-
-/* TEXT */
+/* spacing feel */
 .location-text {
-    font-size: 16px;
-    line-height: 1.7;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
+    line-height: 1.7;
 }
 
-/* LIST */
+/* list styling */
 .location-list {
     list-style: none;
     padding: 0;
-    margin: 0 0 25px 0;
+    margin: 0 0 20px 0;
 }
 
 .location-list li {
     padding: 6px 0;
     border-bottom: 1px solid rgba(0,0,0,0.08);
-    font-size: 15px;
 }
 
-/* BUTTON */
+/* button polish */
 .location-btn {
     border-radius: 6px;
+}
+
+/* keep slideshow height consistent */
+.location-mobile .uk-slideshow-items {
+    height: 300px; /* adjust if needed */
 }
