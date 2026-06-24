@@ -5,7 +5,7 @@
 
     /* Brand Greens */
     --color-primary: #2ecc71;
-    --color-primary-hover: #28b765;
+    --color-primary-hover: #087939;
     --color-dark-green: #064d2b;
 
     /* Neutrals */
@@ -84,8 +84,8 @@
 
 /* Hover effect: slightly bigger, stays solid */
 .uk-button.uk-button-secondary:hover{
-    background-color: var(--color-dark-green);
-    border-color: var(--color-dark-green);
+    background-color: var(--color-primary-hover);
+    border-color: var(--color-primary-hover);
     color: var(--color-white) !important;
     transform: scale(1.06);
 }
@@ -100,7 +100,7 @@
 }
 
 .uk-button.uk-button-primary:hover{
-    background-color: var(--color-dark-green);
+    background-color: var(--color-primary-hover);
     color: var(--color-white);
     transform: scale(1.06);
 }
@@ -108,14 +108,14 @@
 /* Outline button */
 .uk-button.uk-button-outline{
     background: var(--color-white);
-    color: var(--color-primary);
+    color: var(--color-dark-green);
     border: 1px solid var(--color-dark-green);
     transition: all 0.25s ease;
     transform: scale(1);
 }
 
 .uk-button.uk-button-outline:hover{
-    background: var(--color-dark-green);
+    background: var(--color-primary-hover);
     color: var(--color-white);
     transform: scale(1.06);
 }
