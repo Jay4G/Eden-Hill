@@ -95,13 +95,14 @@
     background-color: var(--color-dark-green);
     color: var(--color-white);
     border: none;
+    transition: all 0.25s ease;
+    transform: scale(1);
 }
 
 .uk-button.uk-button-primary:hover{
     background-color: var(--color-dark-green);
     color: var(--color-white);
-    transition: all 0.25s ease;
-    transform: scale(1);
+    transform: scale(1.06);
 }
 
 /* Outline button */
@@ -109,13 +110,14 @@
     background: var(--color-white);
     color: var(--color-primary);
     border: 1px solid var(--color-dark-green);
+    transition: all 0.25s ease;
+    transform: scale(1);
 }
 
 .uk-button.uk-button-outline:hover{
     background: var(--color-dark-green);
     color: var(--color-white);
-    transition: all 0.25s ease;
-    transform: scale(1);
+    transform: scale(1.06);
 }
 
 .intro-text{
