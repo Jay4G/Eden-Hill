@@ -10,6 +10,7 @@
 
     /* Neutrals */
     --color-white: #ffffff;
+    --color-secondary: #f8f8f8;
 
     /* Borders & Dividers */
     --color-divider: rgba(0, 0, 0, 0.08);
@@ -146,7 +147,7 @@
 
 #six-bedroom-villas > div.uk-sticky > div.tab-container,
 #five-bedroom-villas > div.uk-sticky > div.tab-container{
-    background-color: var(--color-white);
+    background-color: var(--color-secondary);
 }
 
 /* keep slideshow height consistent */
