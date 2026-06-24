@@ -12,6 +12,9 @@
     --color-white: #ffffff;
     --color-secondary: #f8f8f8;
 
+    /* Intro Text */
+    --color-red: #ca110e;
+
     /* Borders & Dividers */
     --color-divider: rgba(0, 0, 0, 0.08);
 
@@ -116,7 +119,8 @@
 }
 
 .intro-text{
-    font-size: 4.5rem;
+    font-size: 4.0rem;
+    color: var(--color-red);
 }
 
 /* SECTION WRAPPER */
