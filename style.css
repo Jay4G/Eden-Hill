@@ -116,6 +116,7 @@
 
 .uk-button.uk-button-outline:hover{
     background: var(--color-primary-hover);
+    border:none;
     color: var(--color-white);
     transform: scale(1.06);
 }
