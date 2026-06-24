@@ -95,24 +95,26 @@
 	</div>
 <!-------------------.section ---------------------------------->
 
-	 <section class="uk-section uk-section-small uk-flex uk-flex-center uk-flex-middle">
-    <div class="uk-text-center uk-container uk-container-small hero-content">
+	 <section class="uk-section uk-section-small uk-flex uk-flex-center uk-flex-middle uk-text-center">
+    <div class="uk-container uk-container-small hero-content" uk-scrollspy="cls: uk-animation-slide-bottom-small; target: .animateInitState; delay: 200; repeat: true">
 
-        <h2 class="uk-heading-medium">Welcome to Eden Hills</h2>
-
-        <p class="uk-text-muted">
+		<div class="uk-text-large">
+			 <p class="animateInitState">
             Experience a modern living space designed for comfort, elegance, and simplicity.
-        </p>
-
-        <div class="uk-margin-top uk-flex uk-flex-center uk-gap-large">
-
-            <a href="#" class="uk-button btn-primary">
-                Get Started
-            </a>
-
-            <a href="#" class="uk-button btn-outline uk-visible@m">
-                Learn More
-            </a>
+        	</p>
+		</div>
+       
+        <div class="uk-margin-top uk-grid uk-grid-medium uk-flex uk-flex-center ">
+			<div class="uk-width-auto@s uk-width-1-1">
+				<a href="#" class="uk-button btn-primary uk-width-1-1 animateInitState" uk-scroll>
+					Get Started
+				</a>
+			</div>
+			<div class="uk-width-auto@s uk-width-auto uk-visible@m">
+				<a href="#" class="uk-button btn-outline animateInitState uk-width-1-1" uk-scroll>
+					Learn More
+				</a>
+			</div>
 
         </div>
 
