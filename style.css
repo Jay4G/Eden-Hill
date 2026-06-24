@@ -280,13 +280,13 @@
 ========================== */
 
 #callback-submit{
-    min-width:185px;
-    height:76px;
-    margin-top:70px;
+    min-width:50px;
+    height:46px;
+    margin-top:20px;
     background:#294d35;
     color:#fff;
     border:none;
-    font-size:18px;
+    font-size:16px;
     letter-spacing:.05em;
     text-transform:uppercase;
     cursor:pointer;
@@ -327,7 +327,7 @@
 
     #callback-submit{
         width:100%;
-        max-width:300px;
-        margin-top:40px;
+        max-width:100px;
+        margin-top:20px;
     }
 }
