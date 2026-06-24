@@ -115,6 +115,10 @@
     transform: scale(1);
 }
 
+.intro-text{
+    font-size: 4.5rem;
+}
+
 /* SECTION WRAPPER */
 .location-cover{
     border-radius: 10px;
