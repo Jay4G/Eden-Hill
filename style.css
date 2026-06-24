@@ -165,3 +165,169 @@
 .location-mobile .uk-slideshow-items{
     height: 300px;
 }
+
+/* ==========================
+   SECTION
+========================== */
+
+.form-section{
+    background:#f5f2ef;
+    padding:120px 0;
+}
+
+.form-section .uk-container{
+    max-width:1360px;
+}
+
+/* ==========================
+   HEADING
+========================== */
+
+.info-section{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title{
+    font-size:clamp(3rem,8vw,6rem);
+    line-height:1;
+    color:#6a4944;
+    margin-bottom:20px;
+}
+
+.info-section p{
+    max-width:900px;
+    margin:0 auto;
+    color:#6a4944;
+    font-size:1.3rem;
+}
+
+/* ==========================
+   FORM
+========================== */
+
+.enquiry-form{
+    max-width:1300px;
+    margin:0 auto;
+}
+
+.form-margin{
+    margin-bottom:10px;
+}
+
+/* ==========================
+   LABELS
+========================== */
+
+.enquiry-form .uk-form-label{
+    display:block;
+    margin-bottom:12px;
+    color:#6a4944;
+    font-size:16px;
+    font-weight:400;
+}
+
+/* ==========================
+   INPUTS
+========================== */
+
+.enquiry-form .uk-input,
+.enquiry-form .uk-select{
+    height:112px;
+    padding:22px 26px;
+    background:#fff;
+    border:none;
+    border-bottom:1px solid #7d5b55;
+    border-radius:0;
+    box-shadow:none;
+    color:#6a4944;
+    font-size:18px;
+}
+
+.enquiry-form .uk-input::placeholder{
+    color:#b9aaa6;
+}
+
+.enquiry-form .uk-select{
+    color:#b9aaa6;
+}
+
+.enquiry-form .uk-input:focus,
+.enquiry-form .uk-select:focus{
+    border-bottom-color:#6a4944;
+    box-shadow:none;
+}
+
+.enquiry-form .uk-select{
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    padding-right:70px;
+}
+
+/* ==========================
+   ARROWS
+========================== */
+
+.custom-arrow{
+    right:26px;
+    color:#6a4944;
+    pointer-events:none;
+}
+
+/* ==========================
+   BUTTON
+========================== */
+
+#callback-submit{
+    min-width:185px;
+    height:76px;
+    margin-top:70px;
+    background:#294d35;
+    color:#fff;
+    border:none;
+    font-size:18px;
+    letter-spacing:.05em;
+    text-transform:uppercase;
+    cursor:pointer;
+    transition:.3s ease;
+}
+
+#callback-submit:hover{
+    transform:translateY(-2px);
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media (max-width:959px){
+
+    .form-section{
+        padding:80px 0;
+    }
+
+    .info-section{
+        margin-bottom:40px;
+    }
+
+    .section-title{
+        font-size:3rem;
+    }
+
+    .info-section p{
+        font-size:1rem;
+    }
+
+    .enquiry-form .uk-input,
+    .enquiry-form .uk-select{
+        height:90px;
+        font-size:16px;
+    }
+
+    #callback-submit{
+        width:100%;
+        max-width:300px;
+        margin-top:40px;
+    }
+}
