@@ -122,42 +122,16 @@
 	</section>
 <!-------------------.section ---------------------------------->
 
-<div class="uk-container">
-
-    <div class="uk-position-relative">
-
-        <!-- Spinner -->
-        <div id="video-spinner"
-             class="uk-position-cover uk-flex uk-flex-center uk-flex-middle">
-            <div uk-spinner="ratio: 2"></div>
-        </div>
-
-        <!-- Video -->
-        <video
-            id="hero-video"
-            class="uk-width-1-1 uk-animation-fade"
-            src="15354032_3840_2160_25fps (1).mp4"
-            width="1920"
-            height="1080"
-            playsinline
-            loop
-            muted
-            preload="metadata"
-            hidden
-            uk-video="autoplay: inview">
-        </video>
-
-    </div>
-
-</div>
-
-<script>
-document.getElementById('hero-video').addEventListener('loadeddata', function () {
-    document.getElementById('video-spinner').hidden = true;
-    this.hidden = false;
-});
-</script>
-
+	<div id="video" class="video-section uk-section-large uk-padding-remove uk-position-relative">
+			<div class="uk-container">
+                <div class="uk-position-center">
+                    <div uk-spinner="ratio: 1.5"></div>			 
+                </div>            
+                <div class="uk-position-relative">
+                    <video src="15354032_3840_2160_25fps (1).mp4" width="1436" height="808" loop muted playsinline uk-video="autoplay: inview"></video>
+                </div>
+			</div><!-- .container -->
+	</div>			
 <!-------------------.section ---------------------------------->
 
     <div id="six-bedroom-villas" class="villa-section uk-container uk-section uk-background-muted">
