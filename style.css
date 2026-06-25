@@ -331,3 +331,34 @@
         margin-top:20px;
     }
 }
+
+/* 	<script type="text/javascript">
+		function calculateVh() {
+			requestAnimationFrame(() => {
+				let vh = (window.visualViewport?.height || window.innerHeight) * 0.01;
+				document.documentElement.style.setProperty("--vh", `${vh}px`);
+			});
+		}
+
+		document.addEventListener("DOMContentLoaded", calculateVh);
+		window.addEventListener("load", calculateVh);
+
+		let resizeTimer;
+		window.addEventListener("resize", () => {
+			clearTimeout(resizeTimer);
+			resizeTimer = setTimeout(calculateVh, 200);
+		});
+
+		window.addEventListener("orientationchange", calculateVh);
+
+		document.addEventListener("touchstart", calculateVh, { once: true });
+		document.addEventListener("click", calculateVh, { once: true });
+	</script>
+	
+	<link rel="stylesheet" href="css/fonts/fonts.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.24.2/dist/css/uikit.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/css/intlTelInput.css">	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.min.css">    
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+	
+	<link rel="stylesheet" href="css/template.css"> */
